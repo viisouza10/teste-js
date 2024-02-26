@@ -1,0 +1,17 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:nivel1": "npx jest 'bank.spec.js' -t 'BankLevel1'",
+    "test:nivel2": "npx jest 'bank.spec.js' -t 'BankLevel2'",
+    "test:nivel3": "npx jest 'bank.spec.js' -t 'BankLevel3'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}

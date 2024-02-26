@@ -26,7 +26,7 @@ describe("BankLevel2", function() {
 })
 describe("BankLevel3", function() {
     test("ser possivel adicionar e remover  dinheiro na minha carteira brasileira",function(){
-        const wallet = new bankLevel3("Vinicius",10,'pt-br')
+        const wallet = new bankLevel3("Vinicius",10)
 
         wallet.addMoney(100)
         wallet.addMoney(177)
